@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "TurboETH",
-  "short_name": "TurboETH",
+  "name": "Perspect",
+  "short_name": "Perspect",
   "description": "Full-Stack Web3 Application",
   "icons": [
     {

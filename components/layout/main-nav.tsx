@@ -29,7 +29,7 @@ export function MainNav() {
         <LightDarkImage
           LightImage="/logo-dark.png"
           DarkImage="/logo-light.png"
-          alt="TurboETH"
+          alt="Perspect"
           className="rounded-full"
           height={32}
           width={32}
@@ -87,7 +87,7 @@ function MainNavMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <LinkComponent href="https://docs.turboeth.xyz/overview">
+          <LinkComponent href="https://docs.perspect.xyz/overview">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               <span>Documentation</span>
             </NavigationMenuLink>
@@ -127,7 +127,7 @@ const NavMenuListItem = ({
               alt="icon"
               height={24}
               width={24}
-              className="h-6 w-6"
+              className="size-6"
             />
             <span className="text-base font-medium leading-none">{name}</span>
           </div>

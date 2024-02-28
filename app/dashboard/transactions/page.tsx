@@ -22,7 +22,7 @@ export default function PageDashboardTransactions() {
           <IsSignedOut>
             <div className="flex items-center gap-x-5 text-center">
               <span className="text-sm text-foreground">
-                Login to access the TurboETH free API
+                Login to access the Perspect free API
               </span>
               <ButtonSIWELogin />
             </div>

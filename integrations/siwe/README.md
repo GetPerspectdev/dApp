@@ -1,6 +1,6 @@
-# Sign-In with Ethereum - TurboETH Integration
+# Sign-In with Ethereum - Perspect Integration
 
-Welcome to the [Sign-In with Ethereum](https://login.xyz/) TurboETH Integration! This integration provides a secure and straightforward method for users to authenticate themselves using their Ethereum wallets.
+Welcome to the [Sign-In with Ethereum](https://login.xyz/) Perspect Integration! This integration provides a secure and straightforward method for users to authenticate themselves using their Ethereum wallets.
 
 ## Features
 

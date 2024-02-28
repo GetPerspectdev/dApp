@@ -1,13 +1,7 @@
 {
-  "name": "@turbo-eth/template-web3-app",
+  "name": "perspectdev-webapp",
   "version": "0.0.0",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Kames Geraghty",
-      "did": "kames.eth"
-    }
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -36,8 +30,16 @@
   },
   "packageManager": "pnpm@7.1.8",
   "dependencies": {
+    "@bgd-labs/aave-address-book": "^2.22.0",
+    "@connext/sdk": "^2.1.2",
+    "@graphql-typed-document-node/core": "^3.2.0",
     "@hookform/resolvers": "^3.1.1",
+    "@lens-protocol/react-web": "2.0.0-alpha.34",
+    "@lens-protocol/wagmi": "4.0.0-alpha.3",
+    "@lit-protocol/lit-node-client": "^3.2.2",
     "@prisma/client": "^4.8.1",
+    "@pushprotocol/restapi": "^1.6.9",
+    "@pushprotocol/uiweb": "^1.2.5",
     "@radix-ui/react-accordion": "^1.1.0",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-avatar": "^1.0.1",
@@ -60,11 +62,17 @@
     "@rainbow-me/rainbowkit": "1.0.1",
     "@t3-oss/env-nextjs": "^0.4.0",
     "@tanstack/react-query": "^4.3.9",
+    "arweave": "^1.14.4",
+    "arweave-account": "^1.4.3",
     "axios": "^1.2.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
+    "dexie": "^3.2.5",
+    "dexie-react-hooks": "^1.1.7",
     "ethers": "^5.6.9",
+    "eventsource-parser": "^1.1.2",
     "framer-motion": "^8.4.3",
+    "graphql-request": "^6.1.0",
     "iron-session": "^6.3.1",
     "jotai": "^1.13.0",
     "luxon": "^3.2.1",

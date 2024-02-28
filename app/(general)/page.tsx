@@ -21,10 +21,10 @@ export default function HomePage() {
       <PageHeader className="pb-8">
         <Image
           src="/logo-gradient.png"
-          alt="TurboETH Logo"
+          alt="Perspect Logo"
           width={80}
           height={80}
-          className="h-20 w-20 rounded-2xl"
+          className="size-20 rounded-2xl"
         />
         <PageHeaderHeading>Build Web3 in Turbo&nbsp;Mode</PageHeaderHeading>
         <PageHeaderDescription>{siteConfig.description}</PageHeaderDescription>
@@ -35,7 +35,7 @@ export default function HomePage() {
             rel="noreferrer noopener"
             className={buttonVariants({ variant: "default" })}
           >
-            <LuBook className="mr-2 h-4 w-4" />
+            <LuBook className="mr-2 size-4" />
             Docs
           </Link>
           <Link
@@ -44,7 +44,7 @@ export default function HomePage() {
             rel="noreferrer noopener"
             className={buttonVariants({ variant: "secondary" })}
           >
-            <FaGithub className="mr-2 h-4 w-4" />
+            <FaGithub className="mr-2 size-4" />
             Github
           </Link>
           <Link
@@ -56,7 +56,7 @@ export default function HomePage() {
               "bg-[#7289da] text-white hover:bg-[#7289da]/80"
             )}
           >
-            <FaDiscord className="mr-2 h-4 w-4" />
+            <FaDiscord className="mr-2 size-4" />
             Discord
           </Link>
         </PageHeaderCTA>

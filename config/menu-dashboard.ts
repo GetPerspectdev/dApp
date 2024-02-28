@@ -11,6 +11,14 @@ export const menuDashboard = [
     href: "/dashboard/account",
   },
   {
+    label: "Marketplace",
+    href: "/dashboard/marketplace",
+  },
+  {
+    label: "Mint",
+    href: "/dashboard/mint",
+  },
+  {
     label: "Transactions",
     href: "/dashboard/transactions",
   },

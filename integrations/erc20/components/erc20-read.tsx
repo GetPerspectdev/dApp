@@ -31,7 +31,7 @@ export function ERC20Image({ address, ...props }: ERC20Props) {
   return (
     <img
       alt={`Token ${address} icon`}
-      className="mx-auto h-12 w-12 rounded-full border-2 border-white shadow-md"
+      className="mx-auto size-12 rounded-full border-2 border-white shadow-md"
       src={`https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/ethereum/assets/${address}/logo.png`}
       {...props}
     />
@@ -171,7 +171,7 @@ export function ERC20Read({
                 {showImage && (
                   <ERC20Image
                     address={address}
-                    className="mx-auto h-12 w-12 rounded-full border-2 border-white shadow-md"
+                    className="mx-auto size-12 rounded-full border-2 border-white shadow-md"
                   />
                 )}
                 <ERC20Name address={address} />

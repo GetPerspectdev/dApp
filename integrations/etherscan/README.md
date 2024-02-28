@@ -1,6 +1,6 @@
-# Etherscan TurboETH Integration
+# Etherscan Perspect Integration
 
-Welcome to the "Etherscan" TurboETH Integration! This integration allows users to interact with the Ethereum blockchain data through the Etherscan API, retrieving transaction history and account details.
+Welcome to the "Etherscan" Perspect Integration! This integration allows users to interact with the Ethereum blockchain data through the Etherscan API, retrieving transaction history and account details.
 
 ## Features
 
