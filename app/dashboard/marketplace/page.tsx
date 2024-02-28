@@ -16,16 +16,16 @@ export default function Component() {
           alt="NFT 1"
           className="h-64 w-full object-cover"
           height={500}
-          src="/images/MintCity.svg"
+          src="/images/Hyper.svg"
           style={{
             aspectRatio: "500/500",
-            objectFit: "cover",
+            objectFit: "contain",
           }}
           width={500}
         />
         <div className="bg-accent p-4">
-          <h3 className="text-xl font-bold">NFT Title 1</h3>
-          <h4 className="text-lg font-semibold md:text-xl">0.25 ETH</h4>
+          <h3 className="text-xl font-bold">EON Tokens</h3>
+          <h4 className="text-lg md:text-lg">500 pts</h4>
         </div>
       </div>
       <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
@@ -36,7 +36,7 @@ export default function Component() {
           alt="NFT 2"
           className="h-64 w-full object-cover"
           height={500}
-          src="/placeholder.svg"
+          src="/logo.svg"
           style={{
             aspectRatio: "500/500",
             objectFit: "cover",
@@ -44,8 +44,8 @@ export default function Component() {
           width={500}
         />
         <div className="bg-accent p-4">
-          <h3 className="text-xl font-bold">NFT Title 2</h3>
-          <h4 className="text-lg font-semibold md:text-xl">0.5 ETH</h4>
+          <h3 className="text-xl font-bold">Prestige</h3>
+          <h4 className="text-lg md:text-lg">1000 pts</h4>
         </div>
       </div>
       <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
@@ -56,16 +56,16 @@ export default function Component() {
           alt="NFT 3"
           className="h-64 w-full object-cover"
           height={500}
-          src="/placeholder.svg"
+          src="/images/Swag.svg"
           style={{
             aspectRatio: "500/500",
-            objectFit: "cover",
+            objectFit: "contain",
           }}
           width={500}
         />
         <div className="bg-accent p-4">
-          <h3 className="text-xl font-bold">NFT Title 3</h3>
-          <h4 className="text-lg font-semibold md:text-xl">1 ETH</h4>
+          <h3 className="text-xl font-bold">Swag</h3>
+          <h4 className="text-lg md:text-lg">800 pts</h4>
         </div>
       </div>
       <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">

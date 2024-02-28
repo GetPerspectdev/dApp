@@ -19,7 +19,7 @@ export default function RootProvider({ children }: RootProviderProps) {
   return isMounted ? (
     <ThemeProvider
       attribute="class"
-      defaultTheme="system"
+      defaultTheme="dark"
       enableSystem
       disableTransitionOnChange
     >

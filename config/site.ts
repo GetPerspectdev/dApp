@@ -18,8 +18,8 @@ interface SiteConfig {
 export const SITE_CANONICAL = "https://perspect.xyz"
 
 export const siteConfig: SiteConfig = {
-  name: "PerspectDev",
-  title: "PerspectDev | Productivity On-Chain",
+  name: "Perspect3",
+  title: "Perspect3 | Productivity On-Chain",
   emoji: "⛓",
   description:
     "Real-time insight into developer contributions and rewards for high-performers.",

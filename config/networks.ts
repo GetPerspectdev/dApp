@@ -8,6 +8,7 @@ import {
   arbitrumGoerli as arbitrumGoerliNoIcon,
   baseGoerli as baseGoerliNoIcon,
   base as baseNoIcon,
+  Chain as ChainType,
   celoAlfajores as celoAlfajoresNoIcon,
   celo as celoNoIcon,
   gnosisChiado as gnosisChiadoNoIcon,
@@ -23,6 +24,26 @@ import {
 import { alchemyProvider } from "wagmi/providers/alchemy"
 import { infuraProvider } from "wagmi/providers/infura"
 import { publicProvider } from "wagmi/providers/public"
+
+const hyperChain: ChainType = {
+  id: 3301,
+  name: 'Hyper',
+  network: 'Hyper',
+  nativeCurrency: {
+    decimals: 9,
+    name: 'Hyper',
+    symbol: 'EON',
+  },
+  rpcUrls: {
+    public: { http: ['https://rpc.hyper.blockfabric.net'] },
+    default: { http: ['https://rpc.hyper.blockfabric.net'] },
+  }
+}
+
+const hyper = {
+  ...hyperChain,
+  iconUrl: "/icons/NetworkHyper.svg",
+}
 
 const goerli = {
   ...goerliNoIcon,
@@ -81,6 +102,7 @@ export const ETH_CHAINS_PROD = [
   celo,
   gnosis,
   base,
+  hyper
 ]
 export const ETH_CHAINS_DEV =
   env.NEXT_PUBLIC_PROD_NETWORKS_DEV === "true"

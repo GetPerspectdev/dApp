@@ -4,7 +4,7 @@ let strAtom: WritableAtom<string, string>
 if (typeof window !== "undefined") {
   strAtom = atom(window?.localStorage.getItem("theme") || "system")
 } else {
-  strAtom = atom("system")
+  strAtom = atom("dark")
 }
 
 export const colorMode = atom(
@@ -15,7 +15,7 @@ export const colorMode = atom(
   }
 )
 
-export const useColorMode = () => {
+export const useColorMode = (): [string, () => void, (update: string) => void] => {
   const [mode, setMode] = useAtom(colorMode)
   const toggleMode = () => setMode(mode === "light" ? "dark" : "light")
   return [mode, toggleMode, setMode] as const
